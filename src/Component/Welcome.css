@@ -2,7 +2,8 @@
   height: 100vh;
   border: solid grey;
   /*background: url(../pictures/pic-three.jpg) no-repeat center center fixed;*/
-  background-color: lightsalmon;
+  /*background-color: lightsalmon;*/
+  background: url(../pictures/donuts.jpg) no-repeat center center fixed;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -12,11 +13,30 @@
 }
 
 .welcome__pictures {
-  height: 60%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid red;
   margin-top: 10%;
+}
+
+.welcome__logo img {
+  width: 400px;
+  object-fit: contain;
+}
+
+.welcome__tagline {
+  padding-top: 60px;
+}
+
+.welcome__tagline img {
+  width: 800px;
+  object-fit: contain;
+}
+
+.welcome__content {
+  color: white;
+  padding-top: 30px;
+  margin-top: 10px;
 }

@@ -1,21 +1,22 @@
 import React from "react";
 import "./Welcome.css";
+import logo from "../pictures/logo.png";
+import tagline from "../pictures/Tagline.png";
 
 function Welcome() {
   return (
     <div className="welcome">
-      <h3>This is the welcome page</h3>
       <div className="welcome__pictures">
         <div className="welcome__logo">
-          <h2>Logo</h2>
+          <img src={logo} />
         </div>
 
         <div className="welcome__tagline">
-          <h4>Tagline</h4>
+          <img src={tagline} />
         </div>
 
         <div className="welcome__content">
-          <h6>Content</h6>
+          <h3>HANDCRAFTED WITH LOVE IN OMAHA, NE</h3>
         </div>
       </div>
     </div>
