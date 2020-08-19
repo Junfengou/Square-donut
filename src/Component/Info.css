@@ -8,3 +8,22 @@
   background-size: cover;
   background-position: center;
 }
+
+.info__container {
+  display: flex;
+  border: solid red;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  margin-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.info__card {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
