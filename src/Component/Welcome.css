@@ -1,0 +1,22 @@
+.welcome {
+  height: 100vh;
+  border: solid grey;
+  /*background: url(../pictures/pic-three.jpg) no-repeat center center fixed;*/
+  background-color: lightsalmon;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome__pictures {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid red;
+  margin-top: 10%;
+}
