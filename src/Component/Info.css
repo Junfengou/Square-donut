@@ -23,7 +23,39 @@
 }
 
 .info__card {
+  position: relative;
+  max-width: 240px;
+  height: 200px;
+  background: #fff;
+  margin: 280px 10px;
+  padding: 20px 15px;
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  margin-top: 160px;
+  border: solid rgb(223, 29, 223);
+}
+.info__card:hover {
+  height: 340px;
+}
+
+.info__img {
+  position: relative;
+  width: 70%;
+  object-fit: contain;
+  top: -90px;
+  z-index: 1;
+  /*  border: solid peru;*/
+}
+
+.info__img img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-left: 20%;
+}
+
+.info__content {
+  border: solid rgb(63, 184, 174);
 }
