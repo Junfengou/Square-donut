@@ -1,8 +1,7 @@
 .info {
   height: 100vh;
-  border: solid grey;
-  /*background: url(../pictures/pic-two.jpg) no-repeat center center fixed;*/
-  background-color: rgb(243, 126, 184);
+  /* background: url(../pictures/pic-two.jpg) no-repeat center center fixed;*/
+  background-color: navajowhite;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -11,11 +10,11 @@
 
 .info__container {
   display: flex;
-  border: solid red;
-  justify-content: center;
+  /*border: solid red;*/
+  justify-content: space-evenly;
   align-items: center;
   height: 70%;
-  margin-top: 5%;
+  padding-top: 5%;
   width: 80%;
   margin-left: 10%;
   flex-wrap: wrap;
@@ -25,7 +24,7 @@
 .info__card {
   position: relative;
   max-width: 240px;
-  height: 200px;
+  height: 270px;
   background: #fff;
   margin: 280px 10px;
   padding: 20px 15px;
@@ -35,7 +34,7 @@
   box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
   margin-top: 160px;
-  border: solid rgb(223, 29, 223);
+  /*border: solid rgb(223, 29, 223);*/
 }
 .info__card:hover {
   height: 340px;
@@ -56,6 +55,29 @@
   margin-left: 20%;
 }
 
-.info__content {
-  border: solid rgb(63, 184, 174);
+.info__card .info__content {
+  /*border: solid rgb(63, 184, 174);*/
+  margin-top: -90px;
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.info__content h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.info__content p {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+
+.info__card:hover .info__content {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.4s;
 }
