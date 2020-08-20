@@ -1,7 +1,7 @@
 .info {
   height: 100vh;
   /* background: url(../pictures/pic-two.jpg) no-repeat center center fixed;*/
-  background-color: navajowhite;
+  background-color: rgb(231, 227, 227);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -10,74 +10,53 @@
 
 .info__container {
   display: flex;
-  /*border: solid red;*/
-  justify-content: space-evenly;
-  align-items: center;
-  height: 70%;
-  padding-top: 5%;
-  width: 80%;
-  margin-left: 10%;
-  flex-wrap: wrap;
-  position: relative;
-}
-
-.info__card {
-  position: relative;
-  max-width: 240px;
-  height: 270px;
-  background: #fff;
-  margin: 280px 10px;
-  padding: 20px 15px;
-  display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
-  transition: 0.3s ease-in-out;
-  margin-top: 160px;
-  /*border: solid rgb(223, 29, 223);*/
-}
-.info__card:hover {
-  height: 340px;
+  align-items: center;
+  height: 100vh;
 }
 
-.info__img {
-  position: relative;
-  width: 70%;
+.info__Left {
+  width: 50%;
+  height: 100%;
+}
+
+.info__Left img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
   object-fit: contain;
-  top: -90px;
-  z-index: 1;
-  /*  border: solid peru;*/
+  margin-left: 45%;
+  margin-top: 25%;
 }
 
-.info__img img {
-  max-width: 100%;
-  border-radius: 20px;
-  margin-left: 20%;
+.info__Right {
+  width: 50%;
+  height: 100%;
 }
 
-.info__card .info__content {
-  /*border: solid rgb(63, 184, 174);*/
-  margin-top: -90px;
-  position: relative;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.2s ease-in-out;
+.info__moreInfo {
+  margin-top: 27%;
+  margin-left: 10%;
 }
 
-.info__content h3 {
-  text-align: center;
-  margin-bottom: 10px;
+.info__Right h2 {
+  display: flex;
+  align-items: center;
 }
 
-.info__content p {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 40px;
-  font-size: 14px;
+.info__Right p {
+  margin-top: 2%;
+  margin-right: 60%;
+  font-weight: bold;
 }
 
-.info__card:hover .info__content {
-  visibility: visible;
-  opacity: 1;
-  transition-delay: 0.4s;
+.info__Right h3 {
+  margin-left: 1%;
+  margin-top: 3%;
+}
+
+.info__Right h5 {
+  margin-left: 2%;
+  margin-top: 1%;
 }

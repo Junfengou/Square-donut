@@ -1,18 +1,19 @@
 import React from "react";
 import "./Info.css";
-import DonutThree from "../pictures/DonutThree.jpg";
-import DonutTwo from "../pictures/DonutTwo.jpg";
+import Bacons from "../pictures/bacons.png";
 
 function Info() {
   return (
     <div className="info">
       <div className="info__container">
-        <div className="info__card">
+        <div className="info__Left">
           <div className="info__img">
-            <img src={DonutThree} />
+            <img src={Bacons} />
           </div>
-          <div className="info__content">
-            <h3>NEW DONUT SHOP!</h3>
+        </div>
+        <div className="info__Right">
+          <div className="info__moreInfo">
+            <h2>About Us</h2>
             <p>
               Whether you’re nearby Square Donut in West Omaha or you drive a
               few minutes, we’re honored to be a part of your morning routine.
@@ -20,22 +21,15 @@ function Info() {
               Square Donut has handcrafted donuts to make your heart (and mouth)
               sing.
             </p>
-          </div>
-        </div>
 
-        <div className="info__card">
-          <div className="info__img">
-            <img src={DonutTwo} />
-          </div>
-          <div className="info__content">
+            <h3>Phone</h3>
+            <h5>(402) 359-1555</h5>
+
+            <h3>Hours</h3>
+            <h5>Every Day 6AM-12PM or until sold out</h5>
+
             <h3>Location</h3>
-            <p>15825 W. Maple Rd. Omaha, Nebraska 68116</p>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <h3>Phone: (402) 359-1555</h3>
+            <h5>15825 W. Maple Rd. Omaha, Nebraska 68116</h5>
           </div>
         </div>
       </div>
