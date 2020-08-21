@@ -11,11 +11,24 @@ import "./Menu.css";
 function Menu() {
   return (
     <div className="menu">
-      <div className="menu__logo">
-        <img src={Colored} className="menu__logo_colored" />
-        <img src={Menu_logo} className="menu__logo_logo" />
-        <img src={Half_Colored} className="menu__logo_colored" />
+      <div className="menu__info">
+        <div className="menu__logo">
+          <img src={Colored} className="menu__logo_colored" />
+          <img src={Menu_logo} className="menu__logo_logo" />
+          <img src={Half_Colored} className="menu__logo_colored" />
+        </div>
+
+        <div className="menu__content">
+          <h5>
+            TO GO ORDERS COME IN DOZEN & HALF DOZEN SIZES. CALL 402-359-1555 THE
+            PREVIOUS DAY BEFORE 11 AM FOR NEXT DAY PICK UP — LETTER DONUTS &
+            CUSTOM ORDERS REQUIRE 48 HR. NOTICE. TO ENSURE THAT WE CAN SERVE ALL
+            CUSTOMERS, CUSTOM ORDERS ARE ON A LIMITED FIRST COME, FIRST SERVE
+            BASIS.
+          </h5>
+        </div>
       </div>
+
       <div className="menu__container">
         <div className="menu__card">
           <div className="menu__img">
@@ -90,12 +103,12 @@ function Menu() {
               </div>
 
               <div className="menu__content__item">
-                <h4>RAISED OR CAKE (One variety offered daily)</h4>
+                <h4>RAISED OR CAKE </h4>
                 <h6>Vegan Chocolate</h6>
               </div>
 
               <div className="menu__content__item">
-                <h4>RAISED OR CAKE (One variety offered daily)</h4>
+                <h4>RAISED OR CAKE </h4>
                 <h6>Vanilla Topped</h6>
               </div>
             </div>
