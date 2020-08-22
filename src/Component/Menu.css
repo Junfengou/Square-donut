@@ -1,7 +1,7 @@
 .menu {
-  height: 120vh;
+  height: 100vh;
   /* background: url(../pictures/pic-two.jpg) no-repeat center center fixed;*/
-  background-color: rgb(231, 227, 227);
+  background-color: rgb(31, 30, 30);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -23,6 +23,7 @@
 }
 
 .menu__content h5 {
+  color: rgb(252, 196, 188);
   padding-left: 29%;
   padding-right: 29%;
   padding-top: 25px;
@@ -63,7 +64,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 20px rgba(160, 156, 156, 0.5);
   transition: 0.3s ease-in-out;
   margin-top: 160px;
   /*border: solid rgb(223, 29, 223);*/
@@ -147,4 +148,13 @@
 .menu__content__wrapper {
   margin-top: -10%;
   padding-top: 20%;
+}
+
+@media screen and (max-width: 715px) {
+  .menu__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }

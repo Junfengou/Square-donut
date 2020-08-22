@@ -1,9 +1,10 @@
 .welcome {
   height: 100vh;
-  border: solid rgb(231, 227, 227);
+  border: solid rgb(31, 30, 30);
   /*background: url(../pictures/pic-three.jpg) no-repeat center center fixed;*/
   /*background-color: lightsalmon;*/
   background: url(../pictures/donuts.jpg) no-repeat center center fixed;
+
   min-height: 100%;
   background-size: cover;
   background-position: center;

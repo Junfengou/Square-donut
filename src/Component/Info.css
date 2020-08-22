@@ -1,7 +1,7 @@
 .info {
   height: 100vh;
   /* background: url(../pictures/pic-two.jpg) no-repeat center center fixed;*/
-  background-color: rgb(231, 227, 227);
+  background-color: rgb(31, 30, 30);
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
@@ -41,22 +41,26 @@
 }
 
 .info__Right h2 {
+  color: rgb(252, 196, 188);
   display: flex;
   align-items: center;
 }
 
 .info__Right p {
+  color: white;
   margin-top: 2%;
   margin-right: 60%;
   font-weight: bold;
 }
 
 .info__Right h3 {
+  color: rgb(252, 196, 188);
   margin-left: 1%;
   margin-top: 3%;
 }
 
 .info__Right h5 {
+  color: white;
   margin-left: 2%;
   margin-top: 1%;
 }
