@@ -28,7 +28,7 @@
 }
 
 .welcome__logo img {
-  width: 600px;
+  width: 400px;
   object-fit: contain;
 }
 
@@ -45,7 +45,6 @@
   color: white;
   padding-top: 30px;
   margin-top: 10px;
-  font-family: "Josefin Sans", sans-serif;
 }
 
 @media all and (max-width: 412px) {
