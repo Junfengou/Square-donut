@@ -2,6 +2,7 @@ import React from "react";
 import "./Welcome.css";
 import logo from "../pictures/logo.png";
 import tagline from "../pictures/Tagline.png";
+import NavBar from "./NavBar";
 
 function Welcome() {
   return (
