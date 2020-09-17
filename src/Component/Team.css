@@ -7,18 +7,16 @@
 }
 
 .team__container {
-  height: 65%;
+  height: 60%;
   margin-top: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid red;
 }
 
 .team__container__left {
   height: 80%;
   width: 13%;
-  border: solid red;
   background-color: #fcc4bc;
 }
 
@@ -32,7 +30,7 @@
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
-  height: 300px;
+  height: 280px;
 }
 
 .team__container__left__info__phone {
@@ -132,4 +130,102 @@ textarea {
 
 .formBox__contents__button {
   background-color: black;
+}
+
+@media all and (max-width: 1260px) {
+  .team__container {
+    height: 70%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team__container__left {
+    height: 30%;
+    width: 70%;
+    background-color: #fcc4bc;
+  }
+
+  .team__container__left_logo img {
+    height: 130px;
+    object-fit: contain;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+
+  .team__container__left__info {
+    height: 50%;
+    width: 70%;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .team__container__left_logo {
+    display: flex;
+  }
+
+  .team__container__left__info__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team__container__left__info__social {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .team__container__right {
+    height: 50%;
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 876px) {
+  .team__container {
+    height: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team__container__left {
+    height: 40%;
+    width: 70%;
+    background-color: #fcc4bc;
+  }
+
+  .team__container__left_logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team__container__left__info {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .team__container__right {
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caption {
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  .caption h1,
+  p {
+    font-size: 15px;
+  }
+
+  .container__formBox {
+    width: 75%;
+    margin-left: 5%;
+  }
 }

@@ -16,46 +16,51 @@ function Team() {
           <div className="team__container__left_logo">
             <img src={logo} />
             <div className="team__container__left__info">
-              <div className="team__container__left__info__phone">
-                <PhoneInTalkIcon />
-                <p>402.359.1555</p>
+              <div className="team__container__left__info__wrapper">
+                <div className="team__container__left__info__phone">
+                  <PhoneInTalkIcon />
+                  <p>402.359.1555</p>
+                </div>
+                <div className="team__container__left__info__address">
+                  <BusinessIcon />
+                  <p>
+                    15825 W. Maple Rd.
+                    <br />
+                    Omaha, Nebraska <br />
+                    68116
+                  </p>
+                  <p></p>
+                </div>
               </div>
-              <div className="team__container__left__info__address">
-                <BusinessIcon />
-                <p>
-                  15825 W. Maple Rd.
-                  <br />
-                  Omaha, Nebraska <br />
-                  68116
-                </p>
-                <p></p>
-              </div>
-              <div className="team__container__left__info__social">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.facebook.com/Square-Donut-2663381550379435/"
-                >
-                  <FacebookIcon className="facebook" fontSize="large" />
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://twitter.com/SquareDonutOMA"
-                >
-                  <TwitterIcon className="twitter" fontSize="large" />
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.instagram.com/squaredonutoma/"
-                >
-                  <InstagramIcon className="instagram" fontSize="large" />
-                </a>
+              <div className="team__container__left__info__social__wrapper">
+                <div className="team__container__left__info__social">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/Square-Donut-2663381550379435/"
+                  >
+                    <FacebookIcon className="facebook" fontSize="large" />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://twitter.com/SquareDonutOMA"
+                  >
+                    <TwitterIcon className="twitter" fontSize="large" />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/squaredonutoma/"
+                  >
+                    <InstagramIcon className="instagram" fontSize="large" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="team__container__right">
           <div className="caption">
             <h1>Join our team!</h1>
