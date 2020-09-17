@@ -53,6 +53,7 @@
   flex-wrap: wrap;
   position: relative;
   margin-top: 50px;
+  padding-top: 60px;
 
   /* border: solid red;*/
 }
@@ -152,12 +153,20 @@
   padding-top: 20%;
 }
 
-@media all and (max-width: 412px) {
-  .menu__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+@media all and (max-width: 599px) {
+  .menu {
+    height: 200vh;
+    background-color: rgb(31, 30, 30);
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .menu__container {
+    height: 500px;
+    overflow: auto;
+    border: solid pink;
   }
 }
 

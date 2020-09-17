@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 500px;
   object-fit: contain;
   margin-left: 45%;
   margin-top: 25%;
@@ -36,7 +36,7 @@
 }
 
 .info__moreInfo {
-  margin-top: 40%;
+  margin-top: 30%;
   margin-left: 10%;
 }
 
@@ -49,13 +49,13 @@
 .info__Right p {
   color: white;
   margin-top: 2%;
+  margin-left: 1%;
   margin-right: 60%;
   font-weight: bold;
 }
 
 .info__Right h3 {
   color: rgb(252, 196, 188);
-  margin-left: 1%;
   margin-top: 3%;
 }
 
