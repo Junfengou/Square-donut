@@ -22,3 +22,7 @@
 .app__snapSection {
   scroll-snap-align: start;
 }
+
+.app::-webkit-scrollbar {
+  display: none;
+}
