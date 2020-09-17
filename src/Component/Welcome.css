@@ -41,14 +41,14 @@
   margin-top: 10px;
 }
 
-@media all and (max-width: 733px) {
+@media all and (max-width: 412px) {
   .welcome__logo img {
     height: 160px;
     object-fit: contain;
   }
 
   .welcome__tagline img {
-    width: 500px;
+    width: 400px;
     object-fit: contain;
   }
 
