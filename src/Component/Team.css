@@ -1,3 +1,134 @@
 .team {
   height: 100vh;
+  /*background: linear-gradient(-27deg, #fcc4bc 50%, #1f1e1e 50%);*/
+  background-color: rgb(31, 30, 30);
+  display: flex;
+  flex-direction: column;
+}
+
+.team__container {
+  height: 65%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid red;
+}
+
+.team__container__left {
+  height: 80%;
+  width: 13%;
+  background-color: #fcc4bc;
+}
+
+.team__container__left_logo img {
+  height: 130px;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+.team__container__left__info {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 300px;
+}
+
+.team__container__left__info__phone {
+  height: 20%;
+  padding-left: 15px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.team__container__left__info__phone p {
+  padding-left: 10px;
+}
+
+.team__container__left__info__address {
+  height: 30%;
+  padding-left: 15px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.team__container__left__info__address p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.team__container__left__info__social {
+  height: 15%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.team__container__right {
+  height: 80%;
+  width: 40%;
+  background-color: rgb(238, 232, 232);
+}
+
+.team__footer {
+  border: solid #fcc4bc;
+  margin-top: auto;
+  height: 15%;
+  background: #fcc4bc;
+}
+
+.facebook {
+  color: #406abe;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.instagram {
+  color: #9a59b5;
+}
+
+.team__container__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  margin-right: 50px;
+}
+
+.container__formBox {
+  height: 70%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.formBox__contents {
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.formBox__contents input,
+textarea {
+  padding: 5px 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #777;
+  outline: none;
+  background-color: rgb(238, 232, 232);
+}
+
+.formBox__contents__button {
+  background-color: black;
 }

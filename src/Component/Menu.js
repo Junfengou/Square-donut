@@ -1,5 +1,5 @@
 import React from "react";
-import Menu_logo from "../pictures/menu.png";
+import Menu_logo from "../pictures/newMenu.png";
 import Donuts from "../logos/Donut_cakes.png";
 import Fritters from "../logos/Filled_fritters.png";
 import Vegan from "../logos/Vegan.png";

@@ -40,3 +40,33 @@
   padding-top: 30px;
   margin-top: 10px;
 }
+
+@media all and (max-width: 733px) {
+  .welcome__logo img {
+    height: 160px;
+    object-fit: contain;
+  }
+
+  .welcome__tagline img {
+    width: 500px;
+    object-fit: contain;
+  }
+
+  .welcome__content {
+    color: white;
+    padding-top: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 958px) {
+  .welcome__logo img {
+    width: 400px;
+    object-fit: contain;
+  }
+
+  .welcome__pictures {
+    margin-top: 20%;
+  }
+}

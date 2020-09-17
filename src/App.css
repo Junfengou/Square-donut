@@ -15,6 +15,7 @@
 
 .app {
   scroll-snap-type: y mandatory;
+  scroll-snap-type: proximity;
   overflow: auto;
 }
 
