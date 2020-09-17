@@ -18,6 +18,7 @@
 .team__container__left {
   height: 80%;
   width: 13%;
+  border: solid red;
   background-color: #fcc4bc;
 }
 

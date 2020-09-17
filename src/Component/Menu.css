@@ -164,9 +164,14 @@
   }
 
   .menu__container {
-    height: 500px;
+    height: 450px;
+    width: 70%;
+    margin-left: 15%;
     overflow: auto;
-    border: solid pink;
+  }
+
+  .menu__container::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -177,5 +182,16 @@
 
   .menu__content {
     font-size: 13px;
+  }
+
+  .menu__container {
+    height: 450px;
+    width: 70%;
+    margin-left: 15%;
+    overflow: auto;
+  }
+
+  .menu__container::-webkit-scrollbar {
+    display: none;
   }
 }
